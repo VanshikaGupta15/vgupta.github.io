@@ -41,7 +41,7 @@ body {
     background-size: cover; /* Adjust the image size to cover the container */
     background-repeat: no-repeat; /* Prevent image repetition */
     text-align: justify; /* Justify the text to fill the space */
-    color: #000; /* Set the text color (black) */
+    color: #FFFFF0; /* Set the text color (black) */
 }    
 
 .image-credit {
