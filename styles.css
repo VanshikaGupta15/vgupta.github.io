@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    background-image: url('C:\Users\Gupta\Documents\GitHub\vgupta.github.io\my-portfolio\vgupta.github.io\photo1.jpg');
+    background-image: url('photo1.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -56,6 +56,17 @@ a {
     text-decoration: none;
 }
 
+
 a {
     color: #191970
+}
+
+nav ul {
+    list-style: none;
+    display: flex; /* Display list items horizontally */
+    justify-content: center; /* Center items horizontally */
+}
+
+nav li {
+    margin: 0 20px; /* Adjust margin for spacing between links */
 }
