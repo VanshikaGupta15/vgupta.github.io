@@ -26,9 +26,7 @@ p {
 }
 
 body {
-    background: #000000(0, 0, 0, 0.7);
-    background-size: cover;
-    background-repeat: no-repeat;
+    background-color: #000000(0, 0, 0, 0.7);
 }
 
 
@@ -37,6 +35,22 @@ body {
 }
 
 .container {
-    margin: 0 auto; /* Center the container horizontally */
+    padding-left: 5cm; /* Left padding of 5 centimeters */
+    padding-right: 5cm; /* Right padding of 5 centimeters */
+    background-image: url('photo3'); /* Set the background color of the empty space */
+    background-size: cover; /* Adjust the image size to cover the container */
+    background-repeat: no-repeat; /* Prevent image repetition */
+    text-align: justify; /* Justify the text to fill the space */
+    color: #000; /* Set the text color (black) */
+}    
+
+.image-credit {
+    position: fixed;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    right: 10px; /* Adjust the distance from the right as needed */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px; /* Padding around the text */
+    font-size: 12px; /* Font size */
 }
 
