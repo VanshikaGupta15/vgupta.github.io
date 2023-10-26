@@ -11,38 +11,41 @@
     
     <div id="myModal1" class="modal">
         <div class="modal-content">
-            <span class="close" data-modal-id="myModal1">&times;</span>
-            <div id="modal-content-container"></div>
+            <span class="close" id="closeModal1">&times;</span>
+            <!-- Content for Modal 1 -->
         </div>
     </div>
-
+    
     <div id="myModal2" class="modal">
         <div class="modal-content">
-            <span class="close" data-modal-id="myModal1">&times;</span>
-            <div id="modal-content-container"></div>
+            <span class="close" id="closeModal2">&times;</span>
+            <!-- Content for Modal 2 -->
         </div>
     </div>
+    <!-- Repeat the structure for other modals -->
 
     <div id="myModal3" class="modal">
         <div class="modal-content">
-            <span class="close" data-modal-id="myModal1">&times;</span>
-            <div id="modal-content-container"></div>
+            <span class="close" id="closeModal1">&times;</span>
+            <!-- Content for Modal 1 -->
         </div>
     </div>
     
     <div id="myModal4" class="modal">
         <div class="modal-content">
-            <span class="close" data-modal-id="myModal1">&times;</span>
-            <div id="modal-content-container"></div>
+            <span class="close" id="closeModal2">&times;</span>
+            <!-- Content for Modal 2 -->
         </div>
     </div>
+    <!-- Repeat the structure for other modals -->
+    
 
     <nav>
         <ul>
-            <li><a href="html/research.html" onclick="openModal('myModal1')">Internships</a></li>
-            <li><a href="html/project.html" onclick="openModal('myModal2')">Projects</a></li>
-            <li><a href="html/outreach.html" onclick="openModal('myModal3')">Outreach</a></li>
-            <li><a href="html/CV.html" onclick="openModal('myModal4')">CV</a></li>
+            <li><a href="#" onclick="openResearchModal()">Internships</a></li>
+            <li><a href="#" onclick="openProjectModal()">Projects</a></li>
+            <li><a href="#" onclick="openOutreachModal()">Outreach</a></li>
+            <li><a href="#" onclick="openCVModal()">CV</a></li>
         </ul>
     </nav>
 
