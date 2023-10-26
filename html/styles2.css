@@ -1,0 +1,42 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #FFFFF0; /* Change to your desired text color */
+    text-align: center; /* Center align the content */
+}
+
+h1 {
+    font-size: 54px; /* Increase the font size for headings */
+    color: #E6E6FA; /* Change to your desired heading color */
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+}
+
+h1 {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+p {
+    margin-bottom: 20px; /* Add margin between "About Me" and links */
+}
+
+body {
+    background: #B0C4DE(0, 0, 0, 0.7);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+.centered-content {
+    text-align: center; /* Center align the content */
+}
+
+.container {
+    margin: 0 auto; /* Center the container horizontally */
+}
+
