@@ -11,7 +11,24 @@ h1 {
 }
 
 body {
-    background-color: #E0FFFF; /* Change to your desired background color */
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Vertically center content */
+    align-items: center; /* Horizontally center content */
+}
+
+body {
+    background-image: url('C:\Users\Gupta\Documents\GitHub\vgupta.github.io\my-portfolio\vgupta.github.io\photo1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+h1 {
+    margin-bottom: 20px; /* Adjust the margin as needed */
+}
+
+p {
+    margin-bottom: 20px; /* Add margin between "About Me" and links */
 }
 
 .centered-content {
@@ -22,3 +39,23 @@ body {
     margin: 0 auto; /* Center the container horizontally */
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    font-size: 48px; /* Adjust the size as needed */
+}
+
+a {
+    border: 2px solid #48D1CC; /* Adjust the width and color as needed */
+    padding: 8px; /* Adjust the padding as needed */
+}
+
+a {
+    text-decoration: none;
+}
+
+a {
+    color: #191970
+}
