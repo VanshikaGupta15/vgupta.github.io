@@ -1,13 +1,13 @@
 body {
     font-family: "Times New Roman", Times, serif;
     font-size: 18px;
-    color: #483D8B; /* Change to your desired text color */
+    color: #FFFFF0; /* Change to your desired text color */
     text-align: center; /* Center align the content */
 }
 
 h1 {
     font-size: 54px; /* Increase the font size for headings */
-    color: #8B008B; /* Change to your desired heading color */
+    color: #E6E6FA; /* Change to your desired heading color */
 }
 
 body {
@@ -18,7 +18,7 @@ body {
 }
 
 body {
-    background-image: url('photo1.jpg');
+    background-image: url('photo2.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
@@ -48,7 +48,7 @@ a {
 }
 
 a {
-    border: 2px solid #48D1CC; /* Adjust the width and color as needed */
+    border: 2px solid #FFF0F5; /* Adjust the width and color as needed */
     padding: 8px; /* Adjust the padding as needed */
 }
 
@@ -58,7 +58,7 @@ a {
 
 
 a {
-    color: #191970
+    color: #E6E6FA
 }
 
 nav ul {
@@ -69,4 +69,14 @@ nav ul {
 
 nav li {
     margin: 0 20px; /* Adjust margin for spacing between links */
+}
+
+.image-credit {
+    position: fixed;
+    bottom: 10px; /* Adjust the distance from the bottom as needed */
+    right: 10px; /* Adjust the distance from the right as needed */
+    background: rgba(0, 0, 0, 0.5); /* Semi-transparent background */
+    color: #fff; /* Text color */
+    padding: 5px; /* Padding around the text */
+    font-size: 12px; /* Font size */
 }
