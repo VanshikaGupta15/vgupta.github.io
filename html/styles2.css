@@ -37,7 +37,7 @@ body {
 .container {
     padding-left: 5cm; /* Left padding of 5 centimeters */
     padding-right: 5cm; /* Right padding of 5 centimeters */
-    background-image: url('photo3'); /* Set the background color of the empty space */
+    background-image: url('photo3.jpg'); /* Set the background color of the empty space */
     background-size: cover; /* Adjust the image size to cover the container */
     background-repeat: no-repeat; /* Prevent image repetition */
     text-align: justify; /* Justify the text to fill the space */
