@@ -1,0 +1,24 @@
+body {
+    font-family: "Times New Roman", Times, serif;
+    font-size: 18px;
+    color: #483D8B; /* Change to your desired text color */
+    text-align: center; /* Center align the content */
+}
+
+h1 {
+    font-size: 54px; /* Increase the font size for headings */
+    color: #8B008B; /* Change to your desired heading color */
+}
+
+body {
+    background-color: #E0FFFF; /* Change to your desired background color */
+}
+
+.centered-content {
+    text-align: center; /* Center align the content */
+}
+
+.container {
+    margin: 0 auto; /* Center the container horizontally */
+}
+
